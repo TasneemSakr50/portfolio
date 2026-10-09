@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tasneem Sakr — UI/UX Designer</title>
+
+  <meta
+    name="description"
+    content="Tasneem Sakr — UI/UX Designer specializing in end-to-end product design, from research to high-fidelity prototypes. Case studies in fintech, AI energy and forensic platforms."
+  >
+  <meta name="theme-color" content="#F5EFE6">
+
+  <!-- Social preview (LinkedIn / WhatsApp / X) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tasneem Sakr — UI/UX Designer">
+  <meta property="og:description" content="I design digital products that make complex experiences feel simple. Case studies in fintech, AI energy and forensic platforms.">
+  <meta property="og:image" content="https://YOUR-DOMAIN/images/2.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/10.png" type="image/png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Readex+Pro:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Marhey:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="hook-page">
+
+  <!-- ================= NAV (injected by navbar.js) ================= -->
+  <nav class="nav" data-navbar aria-label="Main"></nav>
+
+  <!-- ================= HOOK ================= -->
+  <main>
+
+    <section class="hook" id="hook">
+
+      <div class="hook-orbit orbit-one"></div>
+      <div class="hook-orbit orbit-two"></div>
+
+      <div class="hook-content">
+
+        <!-- CHARACTER — سبونج + باتريك للديسكتوب / صورتك الشخصية للموبايل -->
+        <div class="character-stage">
+
+          <!-- نسخة الديسكتوب: سبونج بوب وبسيط مع حركة العيون -->
+          <div class="character-wrapper desktop-character" id="characterWrapper">
+
+            <img
+              src="images/19.png"
+              alt="SpongeBob & Patrick"
+              class="character-img"
+              id="characterImg"
+              width="736"
+              height="736"
+              loading="eager"
+              decoding="async"
+            >
+
+            <!-- طبقة العيون التفاعلية (غطاء أبيض + نني متحرك) -->
+            <div class="eye-layer">
+
+              <!-- عين سبونج بوب الشمال -->
+              <div class="eye-socket sb-left">
+                <div class="pupil-spongebob" id="sbPupilLeft"></div>
+              </div>
+
+              <!-- عين سبونج بوب اليمين -->
+              <div class="eye-socket sb-right">
+                <div class="pupil-spongebob" id="sbPupilRight"></div>
+              </div>
+
+              <!-- عين بسيط الشمال -->
+              <div class="eye-socket pat-left">
+                <div class="pupil-patrick" id="patPupilLeft"></div>
+              </div>
+
+              <!-- عين بسيط اليمين -->
+              <div class="eye-socket pat-right">
+                <div class="pupil-patrick" id="patPupilRight"></div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- نسخة الشاشات الصغيرة والموبايل: صورتك الشخصية -->
+          <div class="character-wrapper mobile-character">
+
+            <img
+              src="images/8.png"
+              alt="Tasneem Sakr"
+              class="character-img"
+              width="400"
+              height="400"
+              loading="eager"
+              decoding="async"
+            >
+
+          </div>
+
+        </div>
+
+        <!-- INTRO TEXT -->
+        <div class="hook-text">
+
+          <span
+            class="eyebrow"
+            data-en="UI/UX DESIGNER"
+            data-ar="مصممة UI/UX"
+          >
+            UI/UX DESIGNER
+          </span>
+
+          <h1
+            class="hook-name"
+            data-en="Tasneem Sakr"
+            data-ar="تسنيم صقر"
+          >
+            Tasneem Sakr
+          </h1>
+
+          <h2
+            class="hook-role"
+            data-en="I design digital products that make complex experiences feel simple."
+            data-ar="بصمم منتجات رقمية بتخلّي التجارب المعقدة أبسط."
+          >
+            I design digital products that make complex experiences feel simple.
+          </h2>
+
+          <p
+            class="hook-tagline"
+            data-en="From understanding user needs to crafting intuitive interfaces, I bring clarity, structure, and purpose to digital experiences."
+            data-ar="من فهم احتياجات المستخدم لحد تصميم واجهات واضحة وسهلة الاستخدام، بهتم إن كل تفصيلة في المنتج يكون ليها هدف."
+          >
+            From understanding user needs to crafting intuitive interfaces, I bring clarity, structure, and purpose to digital experiences.
+          </p>
+
+
+          <!-- ACTIONS -->
+          <div class="hook-actions">
+
+            <a
+              href="portfolio.html"
+              class="btn btn-primary"
+              id="enterBtn"
+              data-en="Explore My Work →"
+              data-ar="شوف شغلي ←"
+            >
+              Explore My Work →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ============ SCRIPTS ============ -->
+  <script src="navbar.js"></script>
+  <script src="character.js"></script>
+  <script src="lang.js"></script>
+
+</body>
+</html>
